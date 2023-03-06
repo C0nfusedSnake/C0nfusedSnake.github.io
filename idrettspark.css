@@ -1,0 +1,72 @@
+/*navbar*/
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #ff7700;
+position: sticky;
+top: 0;
+}
+
+/*utvid navbaren til siden*/
+.full-bleed {
+    box-shadow: 0 0 0 100vmax #ff7700;
+    clip-path: inset(0 -100vmax);
+}
+
+/*få teksten til å være på venstre side av navbaren*/
+li {
+    float: left;
+}
+
+/*tekst for navbar*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*forandre farge når man har mus over tekst på navbar*/
+li a:hover {
+    background-color: #ff580a;
+}
+
+/*viser hvilken del av siden du er på*/
+.active {
+    background-color: #f98b2b;
+}
+
+.ul input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 9px;
+    margin-right: 16px;
+    border: 1px solid #ccc;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+/*strek*/
+#strekk {
+    background-color: #ff7700;
+    transform:rotate(35deg);
+}
+
+div {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: solid;
+    column-rule-width: 1px;
+    
+}
+
+
+
+
